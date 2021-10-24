@@ -16,6 +16,8 @@ docker-down:
 # Остановить контейнеры а также удалить тома
 docker-down-clear:
 	docker-compose down -v --remove-orphans
-# phpunit
+# phpunit все тесты
 test:
 	docker-compose run --rm php-cli-debian composer test
+test-http:
+	docker-compose run --rm php-cli-debian composer test-http

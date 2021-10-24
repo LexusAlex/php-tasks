@@ -24,9 +24,11 @@
     }
   },
   "require-dev": {
+    "guzzlehttp/guzzle": "^7.4",
     "phpunit/phpunit": "^9.5"
   },
   "scripts": {
-    "test": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite unit"
+    "test": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite all",
+    "test-http": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite http"
   }
 }

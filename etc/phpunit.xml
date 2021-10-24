@@ -10,8 +10,11 @@
          beStrictAboutCoversAnnotation="true"
          verbose="true">
     <testsuites>
-        <testsuite name="unit">
+        <testsuite name="all">
             <directory>../tests</directory>
+        </testsuite>
+        <testsuite name="http">
+            <directory>../tests/Tasks/Http</directory>
         </testsuite>
     </testsuites>
 </phpunit>
