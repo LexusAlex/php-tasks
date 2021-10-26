@@ -28,7 +28,7 @@
 
 ### Http
 
-#### 1. Отправка get запроса
+#### 1. Http get запрос
 
 Задача: Отправить get запрос на сервер https://httpbin.org
 
@@ -36,4 +36,14 @@
 
 [Код](src/Tasks/Http/GetRequest.php)
 [Тест](tests/Tasks/Http/GetRequestTest.php)
+
+### Html
+
+#### 1. Преобразовать символы в сущности
+
+Проблема: При отображении на сайте, некорректно отображаются html теги
+
+Решение: Преобразовать специальные символы в HTML-сущности. Для этого используются функции `htmlspecialchars` и `htmlentities`
+
+[Тест](tests/Tasks/Html/SymbolsInEssenceTest.php)
 

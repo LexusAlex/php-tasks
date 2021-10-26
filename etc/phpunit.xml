@@ -16,5 +16,11 @@
         <testsuite name="http">
             <directory>../tests/Tasks/Http</directory>
         </testsuite>
+        <testsuite name="types">
+            <directory>../tests/Tasks/Types</directory>
+        </testsuite>
+        <testsuite name="html">
+            <directory>../tests/Tasks/Html</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

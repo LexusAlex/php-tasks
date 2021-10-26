@@ -21,3 +21,7 @@ test:
 	docker-compose run --rm php-cli-debian composer test
 test-http:
 	docker-compose run --rm php-cli-debian composer test-http
+test-types:
+	docker-compose run --rm php-cli-debian composer test-types
+test-html:
+	docker-compose run --rm php-cli-debian composer test-html
