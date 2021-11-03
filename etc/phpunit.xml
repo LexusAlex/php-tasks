@@ -22,5 +22,8 @@
         <testsuite name="html">
             <directory>../tests/Tasks/Html</directory>
         </testsuite>
+        <testsuite name="array">
+            <directory>../tests/Tasks/Array</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

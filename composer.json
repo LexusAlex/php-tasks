@@ -31,6 +31,7 @@
     "test": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite all",
     "test-http": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite http",
     "test-types": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite types",
-    "test-html": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite html"
+    "test-html": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite html",
+    "test-array": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite array"
   }
 }

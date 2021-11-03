@@ -15,35 +15,17 @@
 
 ### Типы
 
-#### 1. Отсутствие строгой типизации в php
-
-Проблема: При отсутствии директивы `declare(strict_types=1)` в классе тип число будет автоматически преобразовано в строку
-
-Если подсунуть другие типы будет ошибка `TypeError: Cannot assign int to property Task\Tasks\Types\NotStrictTypes::$name of type string`
-
-Решение: добавить в начало скрипта `declare(strict_types=1)`
-
-[Код](src/Tasks/Types/NotStrictTypes.php)
-[Тест](tests/Tasks/Types/NotStrictTypesTest.php)
+1. Отсутствие строгой типизации в php [Код](src/Tasks/Types/NotStrictTypes.php) [Тест](tests/Tasks/Types/NotStrictTypesTest.php)
 
 ### Http
 
-#### 1. Http get запрос
-
-Задача: Отправить get запрос на сервер https://httpbin.org
-
-Решение: Установить библиотеку GuzzleHttp, отправить с помощью нее запрос, проверить результат
-
-[Код](src/Tasks/Http/GetRequest.php)
-[Тест](tests/Tasks/Http/GetRequestTest.php)
+1. Http get запрос [Код](src/Tasks/Http/GetRequest.php) [Тест](tests/Tasks/Http/GetRequestTest.php)
 
 ### Html
 
-#### 1. Преобразовать символы в сущности
+1. Преобразовать символы в сущности `htmlspecialchars` и `htmlentities` [Тест](tests/Tasks/Html/SymbolsInEssenceTest.php)
 
-Проблема: При отображении на сайте, некорректно отображаются html теги
+### Массив
 
-Решение: Преобразовать специальные символы в HTML-сущности. Для этого используются функции `htmlspecialchars` и `htmlentities`
-
-[Тест](tests/Tasks/Html/SymbolsInEssenceTest.php)
+1. Сортировка многомерных массивов `usort` [Тест](tests/Tasks/Array/SortMultiArrayTest.php)
 

@@ -13,6 +13,12 @@ docker-restart:
 # Остановить контейнеры поднятые командой docker-compose up
 docker-down:
 	docker-compose down --remove-orphans
+# Проверить обновления composer
+composer-outdated:
+	docker-compose run --rm php-cli-debian composer outdated
+# Обновить зависимости composer
+composer-u:
+	docker-compose run --rm php-cli-debian composer u
 # Остановить контейнеры а также удалить тома
 docker-down-clear:
 	docker-compose down -v --remove-orphans
@@ -25,3 +31,5 @@ test-types:
 	docker-compose run --rm php-cli-debian composer test-types
 test-html:
 	docker-compose run --rm php-cli-debian composer test-html
+test-array:
+	docker-compose run --rm php-cli-debian composer test-array
