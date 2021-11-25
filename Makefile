@@ -16,6 +16,9 @@ docker-down:
 # Проверить обновления composer
 composer-outdated:
 	docker-compose run --rm php-cli-debian composer outdated
+# Загрузить зависимости composer
+composer-i:
+	docker-compose run --rm php-cli-debian composer install
 # Обновить зависимости composer
 composer-u:
 	docker-compose run --rm php-cli-debian composer u
