@@ -13,14 +13,13 @@ class TwigExample
     {
         $loader = new FilesystemLoader();
 
+        $loader->addPath(__DIR__ . '/templates', '__main__');
+
         $this->environment = new Environment($loader, [
             'cache' => false,
-            'debug' => true,
+            'debug' => false,
             'strict_variables' => true,
             'auto_reload' => true,
-            'template_dirs' => [
-                FilesystemLoader::MAIN_NAMESPACE => __DIR__ . 'templates',
-            ],
         ]);
     }
 
