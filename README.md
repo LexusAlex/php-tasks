@@ -30,3 +30,7 @@
 
 1. Сортировка многомерных массивов `usort` [Тест](tests/Tasks/Array/SortMultiArrayTest.php)
 
+### Шаблоны
+
+1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
+
