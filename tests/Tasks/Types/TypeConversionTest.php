@@ -19,7 +19,9 @@ class TypeConversionTest extends TestCase
     {
         return [
             [(1 + '7'), 8],
-            //TODO
+            [true + true + true, 3],
+            ['0.7' + '0.7', 1.4],
+            ['123test123' + 4, 127]
         ];
     }
 }
