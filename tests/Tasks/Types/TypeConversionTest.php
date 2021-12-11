@@ -21,7 +21,7 @@ class TypeConversionTest extends TestCase
             [(1 + '7'), 8],
             [true + true + true, 3],
             ['0.7' + '0.7', 1.4],
-            ['123test123' + 4, 127]
+            ['123' + 4, 127]
         ];
     }
 }
