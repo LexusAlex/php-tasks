@@ -30,6 +30,10 @@
 
 1. Сортировка многомерных массивов `usort` [Тест](tests/Tasks/Array/SortMultiArrayTest.php)
 
+### Дата
+
+1. Автоматическое добавление в дату ведущих нулей, функция `sptrintf` [Тест](tests/Tasks/Date/ZeroDateTest.php)
+
 ### Шаблоны
 
 1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)

@@ -36,5 +36,7 @@ test-html:
 	docker-compose run --rm php-cli-debian composer test-html
 test-array:
 	docker-compose run --rm php-cli-debian composer test-array
+test-date:
+	docker-compose run --rm php-cli-debian composer test-date
 test-templates:
 	docker-compose run --rm php-cli-debian composer test-templates

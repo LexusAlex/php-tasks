@@ -25,6 +25,9 @@
         <testsuite name="array">
             <directory>../tests/Tasks/Array</directory>
         </testsuite>
+        <testsuite name="date">
+            <directory>../tests/Tasks/Date</directory>
+        </testsuite>
         <testsuite name="templates">
             <directory>../tests/Tasks/Templates</directory>
         </testsuite>
