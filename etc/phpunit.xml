@@ -28,6 +28,9 @@
         <testsuite name="date">
             <directory>../tests/Tasks/Date</directory>
         </testsuite>
+        <testsuite name="integer">
+            <directory>../tests/Tasks/Integer</directory>
+        </testsuite>
         <testsuite name="templates">
             <directory>../tests/Tasks/Templates</directory>
         </testsuite>

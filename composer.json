@@ -16,7 +16,10 @@
   "autoload": {
     "psr-4": {
       "Task\\": "src/"
-    }
+    },
+    "files": [
+      "src/Tasks/Types/Integer/isEven.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
@@ -34,6 +37,7 @@
     "test-html": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite html",
     "test-array": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite array",
     "test-date": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite date",
+    "test-integer": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite integer",
     "test-templates": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite templates"
   },
   "require": {

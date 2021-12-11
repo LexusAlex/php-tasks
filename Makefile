@@ -16,6 +16,9 @@ docker-down:
 # Проверить обновления composer
 composer-outdated:
 	docker-compose run --rm php-cli-debian composer outdated
+# Обновить карту классов
+composer-autoload:
+	docker-compose run --rm php-cli-debian composer dump-autoload
 # Загрузить зависимости composer
 composer-i:
 	docker-compose run --rm php-cli-debian composer install
@@ -38,5 +41,7 @@ test-array:
 	docker-compose run --rm php-cli-debian composer test-array
 test-date:
 	docker-compose run --rm php-cli-debian composer test-date
+test-integer:
+	docker-compose run --rm php-cli-debian composer test-integer
 test-templates:
 	docker-compose run --rm php-cli-debian composer test-templates

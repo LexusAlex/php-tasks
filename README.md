@@ -34,6 +34,10 @@
 
 1. Автоматическое добавление в дату ведущих нулей, функция `sptrintf` [Тест](tests/Tasks/Date/ZeroDateTest.php)
 
+### Число
+
+1. Проверка четности числа, функция `isEven` [Функция](src/Tasks/Types/Integer/isEven.php) [Тест](tests/Tasks/Integer/IsEvenTest.php) 
+
 ### Шаблоны
 
 1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
