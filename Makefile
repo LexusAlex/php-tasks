@@ -43,5 +43,7 @@ test-date:
 	docker-compose run --rm php-cli-debian composer test-date
 test-integer:
 	docker-compose run --rm php-cli-debian composer test-integer
+test-bool:
+	docker-compose run --rm php-cli-debian composer test-bool
 test-templates:
 	docker-compose run --rm php-cli-debian composer test-templates

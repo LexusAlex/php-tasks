@@ -38,6 +38,10 @@
 
 1. Проверка четности числа, функция `isEven` [Функция](src/Tasks/Types/Integer/isEven.php) [Тест](tests/Tasks/Integer/IsEvenTest.php) 
 
+### Логический тип
+
+1. Проверка таблицы истинности `&&` и `||` [Тест](/tests/Tasks/Bool/TruthTableTest.php)
+
 ### Шаблоны
 
 1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
