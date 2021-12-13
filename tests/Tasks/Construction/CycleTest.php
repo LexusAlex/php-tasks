@@ -25,4 +25,17 @@ class CycleTest extends TestCase
         $this->assertEquals('012345678910109876543210', $result);
     }
 
+    public function testCycleFor()
+    {
+        // Сумма ряда целых чисел
+        $start = 2;
+        $finish = 6;
+        $sum = 0;
+        for ($i = $start; $i <= $finish; $i++) {
+            $sum += $i;
+        }
+        // 2+3+4+5+6 = 20
+        self::assertEquals(20, $sum);
+    }
+
 }
