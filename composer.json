@@ -19,6 +19,7 @@
     },
     "files": [
       "src/Tasks/Types/Integer/isEven.php",
+      "src/Tasks/Types/Integer/joinNumbersFromRange.php",
       "src/Tasks/Types/String/reverseString.php"
     ]
   },

@@ -37,6 +37,7 @@
 ### Число
 
 1. Проверка четности числа, функция `isEven` [Функция](src/Tasks/Types/Integer/isEven.php) [Тест](tests/Tasks/Integer/IsEvenTest.php) 
+2. Вывод чисел из диапазона, функция `joinNumbersFromRange` [Функция](src/Tasks/Types/Integer/joinNumbersFromRange.php) [Тест](tests/Tasks/Integer/JoinNumbersFromRangeTest.php)
 
 ### Логический тип
 
