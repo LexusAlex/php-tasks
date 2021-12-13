@@ -31,6 +31,9 @@
         <testsuite name="integer">
             <directory>../tests/Tasks/Integer</directory>
         </testsuite>
+        <testsuite name="string">
+            <directory>../tests/Tasks/String</directory>
+        </testsuite>
         <testsuite name="bool">
             <directory>../tests/Tasks/Bool</directory>
         </testsuite>

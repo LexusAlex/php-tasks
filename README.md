@@ -42,6 +42,10 @@
 
 1. Проверка таблицы истинности `&&` и `||` [Тест](/tests/Tasks/Bool/TruthTableTest.php)
 
+### Строка
+
+1. Переворот строки без использования циклов, функция `reverseString` [Функция](src/Tasks/Types/String/reverseString.php) [Тест](tests/Tasks/String/ReverseStringTest.php)
+
 ### Шаблоны
 
 1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
