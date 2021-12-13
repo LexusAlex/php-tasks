@@ -39,7 +39,8 @@
     "test-date": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite date",
     "test-integer": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite integer",
     "test-bool": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite bool",
-    "test-templates": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite templates"
+    "test-templates": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite templates",
+    "test-construction": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite construction"
   },
   "require": {
     "twig/twig": "^3.3"

@@ -46,3 +46,7 @@
 
 1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
 
+### Конструкции
+
+1. Циклы. Основы использования. [Тест](tests/Tasks/Construction/CycleTest.php)
+
