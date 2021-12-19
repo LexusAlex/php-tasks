@@ -5,13 +5,14 @@
 
 ## Запуск тестов
 
-`make test`
+- `make test` - запуск всех тестов
+- `make test-...` - запуск тестов определенного раздела
 
 ## Установка библиотек
 
 `docker-compose run --rm php-cli-debian composer require guzzlehttp/guzzle --dev`
 
-## Задачи
+## Задачи и тесты
 
 ### Типы
 
