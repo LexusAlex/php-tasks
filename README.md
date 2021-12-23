@@ -40,6 +40,7 @@
 1. Проверка четности числа, функция `isEven` [Функция](src/Tasks/Types/Integer/isEven.php) [Тест](tests/Tasks/Integer/IsEvenTest.php) 
 2. Вывод чисел из диапазона, функция `joinNumbersFromRange` [Функция](src/Tasks/Types/Integer/joinNumbersFromRange.php) [Тест](tests/Tasks/Integer/JoinNumbersFromRangeTest.php)
 3. Присвоить рандомные значения, определенному заданному набору элементов, чтобы они не повторялись, функция `randomValues` [Функция](src/Tasks/Types/Integer/randomValues.php) [Тест](tests/Tasks/Integer/RandomValuesTest.php)
+4. Бинарное сложение чисел [Тест](tests/Tasks/Integer/BinarySumTest.php)
 
 ### Логический тип
 
