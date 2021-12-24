@@ -30,6 +30,7 @@
 ### Массив
 
 1. Сортировка многомерных массивов `usort` [Тест](tests/Tasks/Array/SortMultiArrayTest.php)
+2. Применение операциий к массивам [Функция](src/Tasks/Types/Array/applyArray.php) [Тест](tests/Tasks/Array/ApplyArrayTest.php)
 
 ### Дата
 
