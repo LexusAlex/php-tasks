@@ -8,6 +8,7 @@ class CycleTest extends TestCase
 {
     public function testCycle()
     {
+        // Простая итерация
         $result = '';
         // while
         $i = 0;
@@ -36,6 +37,18 @@ class CycleTest extends TestCase
         }
         // 2+3+4+5+6 = 20
         self::assertEquals(20, $sum);
+    }
+
+    public function testCycleArray()
+    {
+        // Итерация по массиву
+        $array = ['alex1', 'alex2', 'alex3'];
+        $result = '';
+        for ($i = 0; $i < count($array); $i++) {
+            $result .= "{$array[$i]}";
+        }
+
+        self::assertEquals('alex1alex2alex3', $result);
     }
 
 }
