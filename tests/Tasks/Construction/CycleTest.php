@@ -41,7 +41,7 @@ class CycleTest extends TestCase
 
     public function testCycleArray()
     {
-        // Итерация по массиву
+        // Итерация по массиву - прямой порядок
         $array = ['alex1', 'alex2', 'alex3'];
         $result = '';
         for ($i = 0; $i < count($array); $i++) {
@@ -49,6 +49,23 @@ class CycleTest extends TestCase
         }
 
         self::assertEquals('alex1alex2alex3', $result);
+
+        $test = '';
+        // Итерация по массиву - обратный порядок
+        for ($i = count($array) - 1; $i >= 0; $i--) {
+            $test .="{$array[$i]}";
+        }
+
+        self::assertEquals('alex3alex2alex1', $test);
+
+        $names = ['est1', 'est2', 'est3'];
+        $prefix = 't';
+        $result = [];
+        for ($i = 0, $length = count($names); $i < $length; $i++) {
+            $result[$i] = "{$prefix}{$names[$i]}";
+        }
+
+        self::assertEquals('test1,test2,test3', implode(',',$result));
     }
 
 }
