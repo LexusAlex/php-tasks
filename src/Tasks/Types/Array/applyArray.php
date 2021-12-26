@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Tasks\Types\Integer;
+namespace Task\Tasks\Types\Array;
 
 function applyArray(array $arr, string $operationName, int $index = null, $value = null): array
 {

@@ -4,7 +4,7 @@ namespace Test\Tasks\Array;
 
 use PHPUnit\Framework\TestCase;
 use function PHPUnit\Framework\assertEquals;
-use function Task\Tasks\Types\Integer\applyArray;
+use function Task\Tasks\Types\Array\applyArray;
 
 
 class ApplyArrayTest extends TestCase
