@@ -1,3 +1,4 @@
+init: docker-build-pull composer-i
 # Собрать образы
 docker-build:
 	docker-compose build
