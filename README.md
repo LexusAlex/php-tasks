@@ -34,6 +34,7 @@
 3. Переворот элементов массива в цикле, функция `reverseArray` [Функция](src/Tasks/Types/Array/reverseArray.php) [Тест](tests/Tasks/Array/ReverseArrayTest.php)
 4. Непрерывно возрастающая последовательность чисел массива, функция `isContinuousSequence` [Функция](src/Tasks/Types/Array/isContinuousSequence.php) [Тест](tests/Tasks/Array/isContinuousSequenceTest.php)
 5. Максимальное значение в массиве, функция `arrayMax` [Функция](src/Tasks/Types/Array/arrayMax.php) [Тест](tests/Tasks/Array/ArrayMaxTest.php)
+6. Среднее арифметическое из элементов массива, функция `arrayAverage` два варианта [Функции](src/Tasks/Types/Array/arrayAverage.php) [Тест](tests/Tasks/Array/ArrayAverageTest.php)
 
 ### Дата
 
