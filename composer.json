@@ -26,7 +26,8 @@
       "src/Tasks/Types/Array/reverseArray.php",
       "src/Tasks/Types/Array/isContinuousSequence.php",
       "src/Tasks/Types/Array/arrayMax.php",
-      "src/Tasks/Types/Array/arrayAverage.php"
+      "src/Tasks/Types/Array/arrayAverage.php",
+      "src/Tasks/Types/Array/getTotalAmount.php"
     ]
   },
   "autoload-dev": {

@@ -35,6 +35,7 @@
 4. Непрерывно возрастающая последовательность чисел массива, функция `isContinuousSequence` [Функция](src/Tasks/Types/Array/isContinuousSequence.php) [Тест](tests/Tasks/Array/isContinuousSequenceTest.php)
 5. Максимальное значение в массиве, функция `arrayMax` [Функция](src/Tasks/Types/Array/arrayMax.php) [Тест](tests/Tasks/Array/ArrayMaxTest.php)
 6. Среднее арифметическое из элементов массива, функция `arrayAverage` два варианта [Функции](src/Tasks/Types/Array/arrayAverage.php) [Тест](tests/Tasks/Array/ArrayAverageTest.php)
+7. Сумма указанной валюты в масиве некая то есть выборка из массива, функция `getTotalAmount` [Функция](src/Tasks/Types/Array/getTotalAmount.php) [Тест](tests/Tasks/Array/GetTotalAmountTest.php)
 
 ### Дата
 
