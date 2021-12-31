@@ -57,6 +57,7 @@
 
 1. Переворот строки без использования циклов, функция `reverseString` [Функция](src/Tasks/Types/String/reverseString.php) [Тест](tests/Tasks/String/ReverseStringTest.php)
 2. Работа с многобайтовыми кодировками на примере функций `mb_strlen` и `mb_substr` [Тест](tests/Tasks/String/EncodingTest.php)
+3. Генерация строки в цикле (как делать правильно) [Тест](tests/Tasks/String/GenerateStringInCircleTest.php)
 
 ### Шаблоны
 
