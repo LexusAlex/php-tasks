@@ -22,6 +22,7 @@
       "src/Tasks/Types/Integer/joinNumbersFromRange.php",
       "src/Tasks/Types/Integer/randomValues.php",
       "src/Tasks/Types/String/reverseString.php",
+      "src/Tasks/Types/String/countUniqChars.php",
       "src/Tasks/Types/Array/applyArray.php",
       "src/Tasks/Types/Array/reverseArray.php",
       "src/Tasks/Types/Array/isContinuousSequence.php",

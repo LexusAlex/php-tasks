@@ -58,13 +58,14 @@
 ### Строка
 
 1. Переворот строки без использования циклов для похода по строке, функция `reverseString` [Функция](src/Tasks/Types/String/reverseString.php) [Тест](tests/Tasks/String/ReverseStringTest.php)
-2. Работа с многобайтовыми кодировками на примере функций `mb_strlen` и `mb_substr` [Тест](tests/Tasks/String/EncodingTest.php)
+2. Работа с много байтовыми кодировками на примере функций `mb_strlen` и `mb_substr` [Тест](tests/Tasks/String/EncodingTest.php)
 3. Генерация строки в цикле (как делать правильно) [Тест](tests/Tasks/String/GenerateStringInCircleTest.php)
 4. Обработка строки через массив [Тест](tests/Tasks/String/ProcessingStringTest.php)
+5. Количество уникальных символов в строке, функция `countUniqChars` [Функция](src/Tasks/Types/String/countUniqChars.php) [Тест](tests/Tasks/String/CountUniqCharsTest.php)
 
 ### Шаблоны
 
-1. Работа со шаблонизотором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
+1. Работа со шаблонизатор twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
 
 ### Конструкции
 
