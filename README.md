@@ -39,6 +39,7 @@
 8. Правильное удаление элементов из массива [Тест](tests/Tasks/Array/RemoveTest.php)
 9. Функция `flatten` делает массив плоским, сливая все элементы вложенных массивов [Функция](src/Tasks/Types/Array/flatten.php) [Тест](tests/Tasks/Array/FlattenTest.php)
 10. Количество общих уникальных элементов в двух массивах [Тест](tests/Tasks/Array/UniqueElementsTest.php)
+11. Сортировка массива методом пузырька `arrayBubbleSort` [Функция](src/Tasks/Types/Array/arrayBubbleSort.php) [Тест](tests/Tasks/Array/ArrayBubbleSortTest.php)
 
 ### Дата
 

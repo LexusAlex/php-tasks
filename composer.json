@@ -29,7 +29,8 @@
       "src/Tasks/Types/Array/arrayMax.php",
       "src/Tasks/Types/Array/arrayAverage.php",
       "src/Tasks/Types/Array/getTotalAmount.php",
-      "src/Tasks/Types/Array/flatten.php"
+      "src/Tasks/Types/Array/flatten.php",
+      "src/Tasks/Types/Array/arrayBubbleSort.php"
     ]
   },
   "autoload-dev": {
