@@ -15,7 +15,7 @@ class SortMultiArrayTest extends TestCase
             ['course' => 2, 'position' => 789],
             ['course' => 1, 'position' => 10],
         ];
-
+        // Обратите внимание функция usort возвращает не новый массив, а всего лишь статус выполнение операции
         usort($array, function ($a, $b){
             return ($a['course'] > $b['course']) ? 1 : 0;
         });
