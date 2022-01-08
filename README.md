@@ -35,11 +35,12 @@
 4. Непрерывно возрастающая последовательность чисел массива, функция `isContinuousSequence` [Функция](src/Tasks/Types/Array/isContinuousSequence.php) [Тест](tests/Tasks/Array/isContinuousSequenceTest.php)
 5. Максимальное значение в массиве, функция `arrayMax` [Функция](src/Tasks/Types/Array/arrayMax.php) [Тест](tests/Tasks/Array/ArrayMaxTest.php)
 6. Среднее арифметическое из элементов массива, функция `arrayAverage` два варианта [Функции](src/Tasks/Types/Array/arrayAverage.php) [Тест](tests/Tasks/Array/ArrayAverageTest.php)
-7. Сумма указанной валюты в гусеве некая, то есть выборка из массива, функция `getTotalAmount` [Функция](src/Tasks/Types/Array/getTotalAmount.php) [Тест](tests/Tasks/Array/GetTotalAmountTest.php)
+7. Сумма указанной валюты, то есть выборка из массива, функция `getTotalAmount` [Функция](src/Tasks/Types/Array/getTotalAmount.php) [Тест](tests/Tasks/Array/GetTotalAmountTest.php)
 8. Правильное удаление элементов из массива [Тест](tests/Tasks/Array/RemoveTest.php)
 9. Функция `flatten` делает массив плоским, сливая все элементы вложенных массивов [Функция](src/Tasks/Types/Array/flatten.php) [Тест](tests/Tasks/Array/FlattenTest.php)
 10. Количество общих уникальных элементов в двух массивах [Тест](tests/Tasks/Array/UniqueElementsTest.php)
 11. Сортировка массива методом пузырька `arrayBubbleSort` [Функция](src/Tasks/Types/Array/arrayBubbleSort.php) [Тест](tests/Tasks/Array/ArrayBubbleSortTest.php)
+12. Обновление массива/добавление в массив с помощью процедур, меняем состояние возвращаем новую структуру [Функция](src/Tasks/Types/Array/addEmail.php) [Тест](tests/Tasks/Array/ChangeEmailInArrayTest.php)
 
 ### Дата
 
@@ -71,4 +72,8 @@
 ### Конструкции
 
 1. Циклы. Основы использования. [Тест](tests/Tasks/Construction/CycleTest.php)
+
+### Структуры
+
+1. Работа со структурами. Модификация данных в объекте. Контроль объекта над своим состоянием. Все манипуляции с данными делаем внутри полноценного объекта [Класс User](src/Tasks/Structures/User.php) [Класс User2](src/Tasks/Structures/User2.php) [Тест](tests/Tasks/Structures/AddEmailTest.php)
 

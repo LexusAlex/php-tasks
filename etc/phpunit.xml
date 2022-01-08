@@ -43,5 +43,8 @@
         <testsuite name="construction">
             <directory>../tests/Tasks/Construction</directory>
         </testsuite>
+        <testsuite name="structures">
+            <directory>../tests/Tasks/Structures</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

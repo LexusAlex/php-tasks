@@ -30,7 +30,8 @@
       "src/Tasks/Types/Array/arrayAverage.php",
       "src/Tasks/Types/Array/getTotalAmount.php",
       "src/Tasks/Types/Array/flatten.php",
-      "src/Tasks/Types/Array/arrayBubbleSort.php"
+      "src/Tasks/Types/Array/arrayBubbleSort.php",
+      "src/Tasks/Types/Array/addEmail.php"
     ]
   },
   "autoload-dev": {
@@ -53,7 +54,8 @@
     "test-string": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite string",
     "test-bool": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite bool",
     "test-templates": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite templates",
-    "test-construction": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite construction"
+    "test-construction": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite construction",
+    "test-structures": "phpunit --colors=always --configuration=etc/phpunit.xml --testsuite structures"
   },
   "require": {
     "twig/twig": "^3.3"

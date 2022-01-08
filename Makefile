@@ -52,3 +52,5 @@ test-templates:
 	docker-compose run --rm php-cli-debian composer test-templates
 test-construction:
 	docker-compose run --rm php-cli-debian composer test-construction
+test-structures:
+	docker-compose run --rm php-cli-debian composer test-structures
