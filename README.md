@@ -41,6 +41,7 @@
 10. Количество общих уникальных элементов в двух массивах [Тест](tests/Tasks/Array/UniqueElementsTest.php)
 11. Сортировка массива методом пузырька `arrayBubbleSort` [Функция](src/Tasks/Types/Array/arrayBubbleSort.php) [Тест](tests/Tasks/Array/ArrayBubbleSortTest.php)
 12. Обновление массива/добавление в массив с помощью процедур, меняем состояние возвращаем новую структуру [Функция](src/Tasks/Types/Array/addEmail.php) [Тест](tests/Tasks/Array/ChangeEmailInArrayTest.php)
+13. Проверить сбалансированны скобки в строке `checkBalanced` [Функция](src/Tasks/Types/Array/checkBalanced.php) [Тест](tests/Tasks/Array/CheckBalancedTest.php)
 
 ### Дата
 
