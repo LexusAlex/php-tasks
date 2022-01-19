@@ -32,3 +32,23 @@ function checkBalanced(string $expression): bool
     // Если стек оказался пустой после обхода строки, то значит все хорошо
     return count($stack) === 0;
 }
+
+// Вторая версия функции для но только для круглых скобок
+
+/*function checkIfBalanced($expression)
+{
+    $openSymbol = '(';
+    $closeSymbol = ')';
+    $stack = [];
+    for ($i = 0, $length = strlen($expression); $i < $length; $i++) {
+        if ($expression[$i] === $openSymbol) {
+            array_push($stack, $expression[$i]);
+        } elseif ($expression[$i] === $closeSymbol) {
+            if (empty($stack)) {
+                return false;
+            }
+            array_pop($stack);
+        }
+    }
+    return empty($stack);
+}*/
