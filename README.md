@@ -43,6 +43,7 @@
 12. Обновление массива/добавление в массив с помощью процедур, меняем состояние возвращаем новую структуру [Функция](src/Tasks/Types/Array/addEmail.php) [Тест](tests/Tasks/Array/ChangeEmailInArrayTest.php)
 13. Проверить сбалансированны скобки в строке `checkBalanced` [Функция](src/Tasks/Types/Array/checkBalanced.php) [Тест](tests/Tasks/Array/CheckBalancedTest.php)
 14. Найти пересечение двух массивов [Тест](tests/Tasks/Array/IntersectionTest.php)
+15. Деструктуризация массива [Тест](tests/Tasks/Array/DestructuringTest.php)
 
 ### Дата
 
