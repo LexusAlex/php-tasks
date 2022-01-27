@@ -8,9 +8,7 @@ function flatten($coll): array
     $result = [];
     foreach ($coll as $item) {
         if (is_array($item)) {
-            foreach ($item as $sub) {
-                $result[] = $sub;
-            }
+            $result = [...$result, ...$item];
         } else {
             $result[] = $item;
         }
