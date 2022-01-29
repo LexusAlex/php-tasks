@@ -80,4 +80,5 @@
 ### Структуры
 
 1. Работа со структурами. Модификация данных в объекте. Контроль объекта над своим состоянием. Все манипуляции с данными делаем внутри полноценного объекта [Класс User](src/Tasks/Structures/User.php) [Класс User2](src/Tasks/Structures/User2.php) [Тест](tests/Tasks/Structures/AddEmailTest.php)
+2. Код к [статье](https://lexusalex.ru/28-software-design-1) Класс [Course](src/Tasks/Structures/Course.php) [Тест](tests/Tasks/Structures/SoftwareDesignTest.php)
 
