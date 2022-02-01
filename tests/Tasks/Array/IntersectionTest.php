@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Tasks\Types\Array;
+namespace Test\Tasks\Array;
 
 use PHPUnit\Framework\TestCase;
 

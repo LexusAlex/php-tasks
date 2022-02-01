@@ -32,7 +32,8 @@
       "src/Tasks/Types/Array/flatten.php",
       "src/Tasks/Types/Array/arrayBubbleSort.php",
       "src/Tasks/Types/Array/addEmail.php",
-      "src/Tasks/Types/Array/checkBalanced.php"
+      "src/Tasks/Types/Array/checkBalanced.php",
+      "src/Tasks/Types/Array/getChunked.php"
     ]
   },
   "autoload-dev": {

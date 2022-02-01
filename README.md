@@ -45,6 +45,7 @@
 14. Найти пересечение двух массивов [Тест](tests/Tasks/Array/IntersectionTest.php)
 15. Деструктуризация массива [Тест](tests/Tasks/Array/DestructuringTest.php)
 16. Spread оператор в массивах [Тест](tests/Tasks/Array/SpreadTest.php)
+17. Разбиваем массив на чанки без использования встроенной функции `array_chunk`, функция `getChunked` [Функция](src/Tasks/Types/Array/getChunked.php) [Тест](tests/Tasks/Array/GetChunkedTest.php). `flatten` обратная операция - сделать массив плоским.
 
 ### Дата
 
