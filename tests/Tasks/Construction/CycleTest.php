@@ -68,4 +68,14 @@ class CycleTest extends TestCase
         self::assertEquals('test1,test2,test3', implode(',',$result));
     }
 
+    public function testCycleForeach()
+    {
+        $result = '';
+        foreach (['one' => 1, 'two' => 2, 'three' => 3] as $key => $value) {
+            $result .= "{$key} : {$value} ";
+        }
+
+        self::assertEquals('one : 1 two : 2 three : 3 ', $result);
+    }
+
 }
