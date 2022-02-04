@@ -46,7 +46,9 @@
 15. Деструктуризация массива [Тест](tests/Tasks/Array/DestructuringTest.php)
 16. Spread оператор в массивах [Тест](tests/Tasks/Array/SpreadTest.php)
 17. Разбиваем массив на чанки без использования встроенной функции `array_chunk`, функция `getChunked` [Функция](src/Tasks/Types/Array/getChunked.php) [Тест](tests/Tasks/Array/GetChunkedTest.php). `flatten` обратная операция - сделать массив плоским.
-18. Вернуть новый массив по переданным ключам из другого массива [Тест](tests/Tasks/Array/PickTest.php) 
+18. Вернуть новый массив по переданным ключам из другого массива [Тест](tests/Tasks/Array/PickTest.php)
+19. Извлечение значения по указанным ключам (путь из ключей) [Тест](tests/Tasks/Array/GetInTest.php)
+20. Рекурсивный поиск по многомерному массиву, рекурсивная функция `searchArrayRecursive` [Функция](src/Tasks/Types/Array/searchArrayRecursive.php) [Тест](tests/Tasks/Array/SearchArrayRecursiveTest.php)
 
 ### Дата
 
