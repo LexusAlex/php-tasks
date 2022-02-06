@@ -34,7 +34,8 @@
       "src/Tasks/Types/Array/addEmail.php",
       "src/Tasks/Types/Array/checkBalanced.php",
       "src/Tasks/Types/Array/getChunked.php",
-      "src/Tasks/Types/Array/searchArrayRecursive.php"
+      "src/Tasks/Types/Array/searchArrayRecursive.php",
+      "src/Tasks/Types/Array/calcInPolishNotation.php"
     ]
   },
   "autoload-dev": {
