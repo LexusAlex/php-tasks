@@ -22,4 +22,33 @@ class SortMultiArrayTest extends TestCase
 
         self::assertEquals(1, $array[0]['course']);
     }
+
+    public function testMultiSort()
+    {
+        $products = [
+            ['value1' => 2, 'value2' => '1', 'value3' => '8'],
+            ['value1' => 1, 'value2' => '1', 'value3' => '100'],
+            ['value1' => 1, 'value2' => '5', 'value3' => '1'],
+            ['value1' => 2, 'value2' => '3', 'value3' => '10'],
+            ['value1' => 1, 'value2' => '2', 'value3' => '50'],
+            ['value1' => 1, 'value2' => '7', 'value3' => '75'],
+        ];
+
+        // Более универсальная функция сортировки по нескольким полям
+        $sorts = array('value1' => 'asc', 'value2' => 'asc', 'value3' => 'asc');
+
+        usort($products, function($a, $b) use ($sorts) {
+        foreach($sorts as $field => $direction) {
+            if ($a[$field] != $b[$field]) {
+                if ($direction == 'asc') {
+                    return $a[$field] < $b[$field] ? -1 : 1;
+                }
+                return $a[$field] < $b[$field] ? 1 : -1;
+            }
+        }
+        return 0;
+    });
+
+        self::assertEquals(10, $products[5]['value3']);
+    }
 }
