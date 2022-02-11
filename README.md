@@ -50,6 +50,7 @@
 19. Извлечение значения по указанным ключам (путь из ключей) [Тест](tests/Tasks/Array/GetInTest.php)
 20. Рекурсивный поиск по многомерному массиву, рекурсивная функция `searchArrayRecursive` [Функция](src/Tasks/Types/Array/searchArrayRecursive.php) [Тест](tests/Tasks/Array/SearchArrayRecursiveTest.php)
 21. Вычисление обратной польской записи, отличная тренировка на разложение массива [Функция](src/Tasks/Types/Array/calcInPolishNotation.php) [Тест](tests/Tasks/Array/CalcInPolishNotationTest.php)
+22. Сравнение двух массивов по ключам [Тест](tests/Tasks/Array/ArrayDiffTest.php)
 
 ### Дата
 
