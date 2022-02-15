@@ -19,5 +19,14 @@ class GenerateStringInCircleTest extends TestCase
         $result = "<ul>{$innerValue}</ul>";
 
         self::assertEquals('<ul><li>one</li><li>two</li><li>three</li><li>four</li></ul>', $result);
+
+        // Собираем нужную нам строку
+        ksort($collection);
+        $result = [];
+        foreach ($collection as $key => $value) {
+            $result[] = "{$key}={$value}";
+        }
+
+        self::assertEquals('0=one&1=two&2=three&3=four', implode('&', $result));
     }
 }

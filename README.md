@@ -72,7 +72,7 @@
 
 1. Переворот строки без использования циклов для похода по строке, функция `reverseString` [Функция](src/Tasks/Types/String/reverseString.php) [Тест](tests/Tasks/String/ReverseStringTest.php)
 2. Работа с много байтовыми кодировками на примере функций `mb_strlen` и `mb_substr` [Тест](tests/Tasks/String/EncodingTest.php)
-3. Генерация строки в цикле (как делать правильно) [Тест](tests/Tasks/String/GenerateStringInCircleTest.php)
+3. Генерация строки в цикле (как делать правильно, 2 варианта) [Тест](tests/Tasks/String/GenerateStringInCircleTest.php)
 4. Обработка строки через массив [Тест](tests/Tasks/String/ProcessingStringTest.php)
 5. Количество уникальных символов в строке, функция `countUniqChars` [Функция](src/Tasks/Types/String/countUniqChars.php) [Тест](tests/Tasks/String/CountUniqCharsTest.php)
 6. Длина последнего слова в строке [Тест](tests/Tasks/String/LengthOfLastWordTest.php)
