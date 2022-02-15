@@ -79,7 +79,7 @@
 
 ### Шаблоны
 
-1. Работа со шаблонизатор twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
+1. Работа с шаблонизатором twig [Тест](tests/Tasks/Templates/TwigExampleTest.php)
 
 ### Конструкции
 
