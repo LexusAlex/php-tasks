@@ -53,6 +53,7 @@
 22. Сравнение двух массивов по ключам [Тест](tests/Tasks/Array/ArrayDiffTest.php)
 23. Поиск двух одинаковых строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
 24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
+25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
 
 ### Дата
 
