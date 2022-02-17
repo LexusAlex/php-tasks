@@ -52,6 +52,7 @@
 21. Вычисление обратной польской записи, отличная тренировка на разложение массива [Функция](src/Tasks/Types/Array/calcInPolishNotation.php) [Тест](tests/Tasks/Array/CalcInPolishNotationTest.php)
 22. Сравнение двух массивов по ключам [Тест](tests/Tasks/Array/ArrayDiffTest.php)
 23. Поиск двух одинаковых строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
+24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
 
 ### Дата
 
