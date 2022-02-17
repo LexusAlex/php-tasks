@@ -87,6 +87,7 @@
 
 1. Циклы. Основы использования. [Тест](tests/Tasks/Construction/CycleTest.php)
 2. Оператор объединения с null. Просто меньше кода, больше действий. [Тест](tests/Tasks/Construction/NullTest.php)
+3. Чистые функции [Тест](tests/Tasks/Construction/ClearFunctionTest.php)
 
 ### Структуры
 
