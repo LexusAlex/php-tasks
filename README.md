@@ -54,6 +54,7 @@
 23. Поиск двух одинаковых строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
 24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
 25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
+26. map (отображение) [Тест]()
 
 ### Дата
 
@@ -78,6 +79,7 @@
 4. Обработка строки через массив [Тест](tests/Tasks/String/ProcessingStringTest.php)
 5. Количество уникальных символов в строке, функция `countUniqChars` [Функция](src/Tasks/Types/String/countUniqChars.php) [Тест](tests/Tasks/String/CountUniqCharsTest.php)
 6. Длина последнего слова в строке [Тест](tests/Tasks/String/LengthOfLastWordTest.php)
+7. Последний символ в строке, решение через анонимную функцию [Тест](tests/Tasks/String/LastSymbolInStringTest.php)
 
 ### Шаблоны
 

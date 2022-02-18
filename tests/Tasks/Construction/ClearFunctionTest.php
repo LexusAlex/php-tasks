@@ -13,6 +13,7 @@ class ClearFunctionTest extends TestCase
         //rand();
 
         // Детерминированная функция print_r() - эта функция помимо печати на экран всегда возврщает true
+        // А печать на экран это побочный эффект
         assertTrue(print_r(''));
     }
 }
