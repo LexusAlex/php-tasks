@@ -31,5 +31,9 @@ class DestructuringTest extends TestCase
         foreach ($listeners as [$x, $y]) {
             $res[] = [$x, $y];
         }
+
+        /*foreach ($users as ['age' => $age]) { // destructuring
+            $result[] = $age;
+        }*/
     }
 }

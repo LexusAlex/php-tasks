@@ -54,7 +54,7 @@
 23. Поиск двух одинаковых строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
 24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
 25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
-26. map (отображение) [Тест]()
+26. Map (отображение) [Тест](tests/Tasks/Array/MapTest.php)
 
 ### Дата
 
