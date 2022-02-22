@@ -21,5 +21,14 @@ class MapTest extends TestCase
         }, $listeners);
 
         self::assertEquals(5, array_sum($map));
+
+        // как это реализовано внутри
+        $result = [];
+        $callback = function ($a) {return $a['phones'][1];};
+        foreach ($listeners as $item) {
+            $result[] = $callback($item);
+        }
+
+        self::assertEquals(10, array_sum($result));
     }
 }

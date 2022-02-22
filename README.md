@@ -55,6 +55,7 @@
 24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
 25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
 26. Map (отображение) [Тест](tests/Tasks/Array/MapTest.php)
+27. Возвращаем только дочерние элементы массива [Тест](tests/Tasks/Array/GetChildrenTest.php)
 
 ### Дата
 
