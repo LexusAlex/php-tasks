@@ -56,6 +56,7 @@
 25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
 26. Map (отображение) [Тест](tests/Tasks/Array/MapTest.php)
 27. Возвращаем только дочерние элементы массива [Тест](tests/Tasks/Array/GetChildrenTest.php)
+28. Filter (фильтрация) [Тест](tests/Tasks/Array/FilterArrayTest.php)
 
 ### Дата
 
