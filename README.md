@@ -58,7 +58,7 @@
 27. Возвращаем только дочерние элементы массива [Тест](tests/Tasks/Array/GetChildrenTest.php)
 28. Filter (фильтрация) [Тест](tests/Tasks/Array/FilterArrayTest.php)
 29. Reduce (агрегация) [Тест](tests/Tasks/Array/ReduceTest.php)
-30. Использование функций высшего порядка на примере задачи подсчета в массиве определенных значений [Тест](tests/Tasks/Array/CountArrayTest.php)
+30. Использование функций высшего порядка на примере задачи подсчета в массиве определенных значений. Как правильно дробить задачу на подзадачи [Тест](tests/Tasks/Array/CountArrayTest.php)
 
 ### Дата
 

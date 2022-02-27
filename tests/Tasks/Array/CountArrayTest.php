@@ -44,13 +44,14 @@ class CountArrayTest extends TestCase
 
         // как это решают правильно
 
-        $dom = array_map(fn($email) => explode('@', $email)[1], $emails);
+        //вернуть только доменные имена
+        $dom = array_map(function($email) { return explode('@', $email)[1];}, $emails);
 
-        $freeDomains = array_filter(
-            $dom,
-            fn($dom) => in_array($dom, $text)
-        );
+        // отфильтровать и оставить только те значения которые есть в другом массиве
+        $freeDomains = array_filter($dom, function ($dom) use ($text) { return in_array($dom, $text);});
 
+
+        // теперь считаем количество элементов просто путем добавления в новый массив
         $r2 = array_reduce($freeDomains, function ($acc, $dom) {
             $acc[$dom] = ($acc[$dom] ?? 0) + 1;
             return $acc;
