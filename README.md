@@ -51,7 +51,7 @@
 20. Рекурсивный поиск по многомерному массиву, рекурсивная функция `searchArrayRecursive` [Функция](src/Tasks/Types/Array/searchArrayRecursive.php) [Тест](tests/Tasks/Array/SearchArrayRecursiveTest.php)
 21. Вычисление обратной польской записи, отличная тренировка на разложение массива [Функция](src/Tasks/Types/Array/calcInPolishNotation.php) [Тест](tests/Tasks/Array/CalcInPolishNotationTest.php)
 22. Сравнение двух массивов по ключам [Тест](tests/Tasks/Array/ArrayDiffTest.php)
-23. Поиск двух одинаковых строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
+23. Поиск двух одинаковых строк/Поиск недостающих строк в файле с выводом массива с этими строками [Тест](tests/Tasks/Array/CompareFilesTest.php)
 24. Сгенерировать диапазон ip адресов [Тест](tests/Tasks/Array/RangeIpTest.php)
 25. Поиск элемента многомерного массива по переданным парам параметров [Тест](tests/Tasks/Array/ArrayFindTest.php)
 26. Map (отображение) [Тест](tests/Tasks/Array/MapTest.php)
