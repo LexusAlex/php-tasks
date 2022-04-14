@@ -102,6 +102,36 @@ class TreeTest extends TestCase
             return $tree;
         }
         $tree3 = flatToTree2($new, $new[0]);
+        //// Решение 4 // Неправильное и непроверенное и вообще так не нужно делать
+        $check=[];
+        $result2 = [];
+        unset($value);
+        foreach ($flatArray as $value)
+        {
+            if (in_array($value['id'],$check)!=true){
+                $check[]=$value['id'];
+                //echo '<li>'.$value['name'].'<ul>';
+                $result2[] = $value['name'];
+                foreach ($flatArray as $value2)
+                {
+
+                    if ($value2['parentid']==$value["id"]){
+                        $check[]=$value2['id'];
+                        //echo '<li>'.$value2['name']."<ul>";
+                        $result2[] = $value2['name'];
+                        foreach ($flatArray as $value3)
+                        {
+                            if ($value3['parentid']==$value2["id"]){
+                                $check[]=$value2['id'];
+                                //echo '<li>'.$value3['name']."</li>";
+                                $result2[] = $value3['name'];
+                            }
+                        }
+                        //echo "</ul></li>";
+                    }
+
+                }
+            }}
 
         self::assertEquals('Младший специалист по охране труда', $tree[0]['children'][6]['children'][0]['children'][1]['children'][0]['children'][0]['name']);
         self::assertEquals('Младший специалист по охране труда', $tree2[1]['children'][6]['children'][12]['children'][14]['children'][15]['children'][16]['name']);
