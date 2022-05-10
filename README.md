@@ -101,4 +101,5 @@
 ### Структуры
 
 1. Состояние, процедуры, объекты, структуры, DTO, Коллекция [Тест с пояснениями](tests/Tasks/Structures/StructuresTest.php)
+2. Внедрение зависимостей [Тест с пояснениями](tests/Tasks/Structures/DiTest.php)
 
