@@ -4,6 +4,8 @@ namespace Test\Tasks\Structures;
 
 use PHPUnit\Framework\TestCase;
 use Test\Tasks\Structures\StructuresClass\A;
+use Test\Tasks\Structures\StructuresClass\C;
+use Test\Tasks\Structures\StructuresClass\Db;
 use Test\Tasks\Structures\StructuresClass\Hasher3;
 
 class DiTest extends TestCase
@@ -26,6 +28,19 @@ class DiTest extends TestCase
 
        self::assertEquals(12,$a->a(2));
 
-        //https://elisdn.ru/blog/148/dependency-injection
+        //Но в примерах выше мы жестко вписали использование одной функции внутри другой
+        // Как решить проблему жесткого создания зависимостей, нужно внедрить зависимый объект снаружи на примере класса С
+        // Теперь создаем сервисы по очереди
+
+        // Db
+        $db = new Db("123", "123", "user", "passwd");
+
+        // Класс Ожидает на входе db
+        $c = new C($db);
+        //$c->a();
+
+        // Таким образом мы создали один объект подключения к бд и можем использовать там где это нужно
+
+        // Но в ручную не кашерно все это создавать это можно автоматизировать, создадим контейнер внедрения зависимостей
     }
 }
